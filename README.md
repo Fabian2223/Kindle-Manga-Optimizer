@@ -95,9 +95,9 @@ Se abrirá la interfaz gráfica con pestañas para:
    ```bash
    py -3.13 -m pip install pyinstaller
    ```
-2. Generar build:
+2. Generar build con el archivo build.cmd:
    ```bash
-   py -3.13 -m PyInstaller --noconfirm --onefile --windowed main.py
+   build.cmd
    ```
 3. El ejecutable estará en:
    ```
