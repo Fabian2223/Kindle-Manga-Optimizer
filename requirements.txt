@@ -1,0 +1,21 @@
+# Kindle Manga Optimizer - Dependencias
+# Instalar con:
+#   py -3.13 -m pip install -r requirements.txt
+# ó
+#   C:\Users\TU-USUARIO\AppData\Local\Programs\Python\Python313\python.exe -m pip install -r requirements.txt
+
+# Procesamiento de imágenes (compatible con Python 3.13)
+Pillow>=11.2.1
+
+# OpenCV para filtros/umbral/ruido (build con wheels para 3.13)
+opencv-python>=4.10.0.84
+
+# NumPy requerido por OpenCV y para convertir arreglos
+numpy>=2.1.1
+
+# tkinter viene incluido con Python en Windows (no instalar aquí)
+
+# KCC y Kindle Previewer:
+# - Descargar KCC_c2e_9.1.0.exe y colocarlo en la carpeta del proyecto.
+# - Instalar Kindle Previewer 3 (incluye kindlegen.exe).
+#   Ruta típica: C:\Users\USUARIO\AppData\Local\Amazon\Kindle Previewer 3
